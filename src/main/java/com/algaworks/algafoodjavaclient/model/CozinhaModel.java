@@ -1,0 +1,10 @@
+package com.algaworks.algafoodjavaclient.model;
+
+import lombok.Data;
+
+@Data
+public class CozinhaModel {
+    
+    private Long id;
+    private String nome;
+}
